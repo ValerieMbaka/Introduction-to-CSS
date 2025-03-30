@@ -1,0 +1,133 @@
+/* Apply styles to the body */
+body {
+    font-family: 'Times New Roman', sans-serif;
+    background: linear-gradient(to right, #e3f2fd, #bbdefb, #90caf9);
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the heading */
+h1 {
+    text-align: center;
+    color: #1565c0;
+    margin-top: 20px;
+}
+
+/* Navigation bar styling */
+.navigation {
+    background-color: #1565c0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navigation ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigation ul li a:hover {
+    color: #90caf9;
+    text-decoration: underline;
+}
+
+/* Styling the sections */
+section {
+    background: #ffffff;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the section headings */
+h2 {
+    color: #0d47a1;
+    border-bottom: 3px solid #90caf9;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+/* Styling the image */
+.image img {
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #1565c0;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image img:hover {
+    transform: scale(1.05);
+}
+
+/* Styling the contacts table */
+.contactTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.contactTable th, .contactTable td {
+    border: 1px solid #90caf9;
+    padding: 10px;
+    text-align: left;
+}
+
+.contactTable th {
+    background-color: #438ee2;
+    color: #ffffff;
+}
+
+.contactTable tbody tr:nth-child(even) {
+    background-color: #e3f2fd;
+}
+
+/* Styling the form */
+.registration input, .registration select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #90caf9;
+    border-radius: 4px;
+}
+
+.registration input:focus, .registration select:focus {
+    border-color: #1565c0;
+    outline: none;
+    box-shadow: 0 0 5px rgba(21, 101, 192, 0.5);
+}
+
+.registration button {
+    background-color: #1565c0;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.registration button:hover {
+    background-color: #0d47a1;
+}
+
+/* Footer styling */
+.contact {
+    background: #1565c0;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
